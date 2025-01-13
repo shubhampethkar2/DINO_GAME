@@ -67,13 +67,3 @@ canvas {
 }
 
 
-@media only screen and (max-width: 600px) {
-  /* Adjust the position of the score or any UI elements */
-  [data-score] {
-    font-size: 18px; /* Smaller font for mobile */
-  }
-
-  [data-start-screen] {
-    padding: 10px; /* Adjust start screen for mobile */
-  }
-}
