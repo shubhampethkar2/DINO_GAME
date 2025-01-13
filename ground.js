@@ -1,8 +1,4 @@
-import {
-  getCustomProperty,
-  incrementCustomProperty,
-  setCustomProperty,
-} from "./updateCustomProperty.js"
+import { setCustomProperty, incrementCustomProperty, getCustomProperty } from "./updateCustomProperty.js"
 
 const SPEED = 0.05
 const groundElems = document.querySelectorAll("[data-ground]")
